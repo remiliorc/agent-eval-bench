@@ -1,0 +1,484 @@
+{
+  "backend": "mock",
+  "prompt": "triage_v1.md",
+  "prompt_sha256": "0c6bd8ea4ccc",
+  "cases": "work_orders.jsonl",
+  "n": 20,
+  "score": 0.9967,
+  "json_valid_rate": 1.0,
+  "errors": 0,
+  "per_field": {
+    "equipment_tag": 1.0,
+    "equipment_type": 1.0,
+    "discipline": 1.0,
+    "priority": 1.0,
+    "symptoms": 0.9833
+  },
+  "results": [
+    {
+      "id": "wo-001",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0002,
+      "prediction": {
+        "equipment_tag": "P-203",
+        "equipment_type": "pump",
+        "discipline": "mechanical",
+        "priority": "medium",
+        "symptoms": [
+          "leak"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-002",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "K-101",
+        "equipment_type": "compressor",
+        "discipline": "mechanical",
+        "priority": "high",
+        "symptoms": [
+          "vibration",
+          "trip"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-003",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "TT-308",
+        "equipment_type": "transmitter",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "frozen reading"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-004",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "FV-212",
+        "equipment_type": "control valve",
+        "discipline": "instrumentation",
+        "priority": "high",
+        "symptoms": [
+          "sticking",
+          "oscillation"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-005",
+      "valid_json": true,
+      "score": 0.9333,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 0.6666666666666666
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "M-415",
+        "equipment_type": "motor",
+        "discipline": "electrical",
+        "priority": "low",
+        "symptoms": [
+          "trip",
+          "overheating"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-006",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "E-120",
+        "equipment_type": "heat exchanger",
+        "discipline": "mechanical",
+        "priority": "low",
+        "symptoms": [
+          "fouling"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-007",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "PSV-130A",
+        "equipment_type": "safety valve",
+        "discipline": "mechanical",
+        "priority": "high",
+        "symptoms": [
+          "premature lift"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-008",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "LT-244",
+        "equipment_type": "transmitter",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "drift"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-009",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "P-310",
+        "equipment_type": "pump",
+        "discipline": "electrical",
+        "priority": "high",
+        "symptoms": [
+          "trip"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-010",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "A-205",
+        "equipment_type": "agitator",
+        "discipline": "mechanical",
+        "priority": "medium",
+        "symptoms": [
+          "noise",
+          "bearing wear"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-011",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "AT-118",
+        "equipment_type": "analyzer",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "drift"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-012",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "K-102",
+        "equipment_type": "compressor",
+        "discipline": "mechanical",
+        "priority": "low",
+        "symptoms": [
+          "leak"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-013",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "FT-104",
+        "equipment_type": "transmitter",
+        "discipline": "instrumentation",
+        "priority": "high",
+        "symptoms": [
+          "signal failure"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-014",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "E-330",
+        "equipment_type": "heat exchanger",
+        "discipline": "mechanical",
+        "priority": "high",
+        "symptoms": [
+          "insulation damage"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-015",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "M-120",
+        "equipment_type": "motor",
+        "discipline": "electrical",
+        "priority": "low",
+        "symptoms": [
+          "vibration"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-016",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "PT-301",
+        "equipment_type": "transmitter",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "enclosure damage"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-017",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "FV-104",
+        "equipment_type": "control valve",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "leak",
+          "noise"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-018",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "P-122",
+        "equipment_type": "pump",
+        "discipline": "mechanical",
+        "priority": "high",
+        "symptoms": [
+          "cavitation"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-019",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "A-110",
+        "equipment_type": "agitator",
+        "discipline": "electrical",
+        "priority": "high",
+        "symptoms": [
+          "trip"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": "wo-020",
+      "valid_json": true,
+      "score": 1.0,
+      "fields": {
+        "equipment_tag": 1.0,
+        "equipment_type": 1.0,
+        "discipline": 1.0,
+        "priority": 1.0,
+        "symptoms": 1.0
+      },
+      "latency_s": 0.0,
+      "prediction": {
+        "equipment_tag": "TT-124",
+        "equipment_type": "transmitter",
+        "discipline": "instrumentation",
+        "priority": "medium",
+        "symptoms": [
+          "intermittent signal"
+        ]
+      },
+      "error": null
+    }
+  ]
+}
